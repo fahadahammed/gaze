@@ -4,6 +4,7 @@ import sys
 import json
 import os
 
+
 def date_time_now():
     to_return = datetime.datetime.utcnow().isoformat()
     return to_return
