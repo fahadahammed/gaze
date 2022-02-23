@@ -4,10 +4,10 @@ from src.checks import ping_test, string_check
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='`gaze` is the tool to help you monitor '
+    parser = argparse.ArgumentParser(description='`lookie` is the tool to help you monitor '
                                                  'different kind of resources.',
-                                     epilog='Example: gaze --help',
-                                     prog=f'gaze')
+                                     epilog='Example: lookie --help',
+                                     prog=f'lookie')
     parser.add_argument('--version', action='version', version=f'%(prog)s v{get_version()}',
                         help="Print the version of the tool.")
 
