@@ -27,4 +27,8 @@ if __name__ == '__main__':
     parser_string.set_defaults(func=string_check)
 
     args = parser.parse_args()
-    args.func(args)
+    try:
+        args.func(args)
+    except AttributeError:
+        parser.print_help()
+        parser.exit()
