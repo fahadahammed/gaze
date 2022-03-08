@@ -1,3 +1,3 @@
 def get_version():
-    version = "1.0.0"
-    return f"{version}"
+    to_return = "0.2.0"
+    return to_return

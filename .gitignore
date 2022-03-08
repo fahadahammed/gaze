@@ -311,4 +311,4 @@ dmypy.json
 cython_debug/
 
 
-gaze.config.json
+lookie.config.json
